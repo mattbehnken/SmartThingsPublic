@@ -384,8 +384,8 @@ private loadText() {
 		case "Fire Alarm":
 			state.sound = [uri: "http://s3.amazonaws.com/smartapp-media/sonos/alarm.mp3", duration: "17"]
 			break;
-		case "The mail has arrived":
-			state.sound = [uri: "http://s3.amazonaws.com/smartapp-media/sonos/the+mail+has+arrived.mp3", duration: "1"]
+		case "Matts Custom Airplane Ding":
+			state.sound = [uri: "http://www.orangefreesounds.com/wp-content/uploads/2018/02/Airplane-ding-dong.mp3?_=1", duration: "4"]
 			break;
 		case "A door opened":
 			state.sound = [uri: "http://s3.amazonaws.com/smartapp-media/sonos/a+door+opened.mp3", duration: "1"]
